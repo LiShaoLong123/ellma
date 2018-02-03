@@ -1,0 +1,65 @@
+reset.css  
+
+Normalize.css
+
+
+home 	-------	外卖
+discover ------	发现
+order ---------	订单
+mine ----------	我的
+
+
+推荐
+https://mainsite-restapi.ele.me/shopping/restaurants?latitude=31.23037&longitude=121.473701&offset=0&limit=20&extras[]=activities&terminal=h5
+
+
+
+美食
+https://mainsite-restapi.ele.me/v2/index_entry?geohash=wtw3sjq6n6um&group_type=1&flags[]=F
+
+https://mainsite-restapi.ele.me/v2/index_entry?geohash=wtw3sjq6n6um&group_type=1&flags[]=F
+
+
+热销榜/优惠/港式便当
+https://mainsite-restapi.ele.me/shopping/v2/menu?restaurant_id=2023827
+
+评价
+https://mainsite-restapi.ele.me/ugc/v2/restaurants/2023827/ratings?has_content=true&offset=0&limit=10
+评价标签
+https://mainsite-restapi.ele.me/ugc/v2/restaurants/2023827/ratings/tags
+
+商店名字
+https://mainsite-restapi.ele.me/shopping/restaurant/2023827?extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics&latitude=31.29864&longitude=121.50331
+https://mainsite-restapi.ele.me/shopping/restaurants?lahttps://mainsite-restapi.ele.me/shopping/restaurant/1387328?extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics&latitude=31.29864&longitude=121.50331titude=31.29864&longitude=121.50331&offset=0&limit=20&extras[]=activities&terminal=h5
+
+
+
+
+scrollHeight内容高度
+clientHeight元素本身高度
+scrollTop滚动偏移量
+
+
+
+keep-active 
+activated:function(){ this.$elscrollTop = this.offset }
+
+commodity 商品
+appraise
+二级页面
+图片:img_path
+汉堡王:name  
+蜂鸟转送:delivery_mode.text is_premium
+32分钟:order_lead_time
+配送费:piecewise-agent_fee.tips
+公告:promotion_info
+新:activities[0].icon_name
+新用户:activities[0].tips
+3个用户 :activities.length
+
+
+
+
+
+
+
